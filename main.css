@@ -87,4 +87,8 @@ p{
     h1{
       width: 100%;
     }
+    .button{
+        position:absolute;
+        left:600px;
+    }
 }
