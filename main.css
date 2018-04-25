@@ -62,13 +62,13 @@ li a {
   width: 100%
 }
 
-article{
+.sloganbutton{
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 h1{
-  display:inline-block;
   line-height: 1.3em;
   font-size: 3em;
 }
@@ -83,12 +83,13 @@ p{
     line-height: 1.2em;
 }
 
-@media only screen and (min-width: 917px){
-    h1{
-      width: 100%;
-    }
-    .button{
-        position:absolute;
-        left:600px;
+.links{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 214px){
+    .sloganbutton{
+        justify-content: space-between;
+        padding-right: 400px;
     }
 }
