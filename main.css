@@ -87,9 +87,15 @@ p{
     text-decoration: none;
 }
 
-@media only screen and (min-width: 214px){
+@media only screen and (min-width: 917px){
     .sloganbutton{
         justify-content: space-between;
+        padding-right: 400px;
+    }
+}
+@media only screen and (min-width: 214px){
+    .about{
+        justify-content: space-around;
         padding-right: 400px;
     }
 }
